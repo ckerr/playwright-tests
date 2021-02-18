@@ -14,16 +14,11 @@ function createWindow () {
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 
-  // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
-
   try{
     const wc = webContents.fromId(999);
-    app.testResult = 'success';
-    // app.exit(0)
+    global.testResult = 'success';
   } catch(err){
-    app.foo = 'catch';
-    // app.exit(1)
+    global.testResult = err.toString();
   }
 }
 

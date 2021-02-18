@@ -13,8 +13,8 @@ describe('26599', function () {
     const { app } = electron;
     return new Promise (resolve => {
       setInterval(() => {
-        if (app.hasOwnProperty('testResult')) {
-          resolve(app.testResult);
+        if (global.hasOwnProperty('testResult')) {
+          resolve(global.testResult);
         }
       }, 50);
     });
