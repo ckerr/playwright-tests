@@ -45,8 +45,8 @@ describe(issueNumber, function () {
 
   it(`fails in ${bugVersion}`,
     async() => {
-      const result = await runTest(fixVersion);
-      expect(result).toBe(successResult);
+      const result = await runTest(bugVersion);
+      expect(result).not.toBe(successResult);
     },
     maxTestTimeMsec
   );
