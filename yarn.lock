@@ -1340,6 +1340,24 @@ ecc-jsbn@~0.1.1:
     "@types/node" "^12.0.12"
     extract-zip "^1.0.3"
 
+"electron-11-2-0@npm:electron@11.2.0":
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-11.2.0.tgz#f8577ea4c9ba94068850256145be26b0b89a5dd7"
+  integrity sha512-weszOPAJPoPu6ozL7vR9enXmaDSqH+KE9iZODfbGdnFgtVfVdfyedjlvEGIUJkLMPXM1y/QWwCl2dINzr0Jq5Q==
+  dependencies:
+    "@electron/get" "^1.0.1"
+    "@types/node" "^12.0.12"
+    extract-zip "^1.0.3"
+
+"electron-11-2-2@npm:electron@11.2.2":
+  version "11.2.2"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-11.2.2.tgz#c2e53eb56bd21ae1dc01bc781f2f6bcbe0c18033"
+  integrity sha512-+OitkBrnCFwOF5LXAeNnfIJDKhdBm77jboc16WCIpDsCyT+JpGsKK4y6o30nRZq3zC+wZggUm5w6Ujw5n76CGg==
+  dependencies:
+    "@electron/get" "^1.0.1"
+    "@types/node" "^12.0.12"
+    extract-zip "^1.0.3"
+
 "electron-12-0-0-beta-21@npm:electron@12.0.0-beta.21":
   version "12.0.0-beta.21"
   resolved "https://registry.yarnpkg.com/electron/-/electron-12.0.0-beta.21.tgz#61fd71d397f896a21de6858b7870ad1177f25ff5"
