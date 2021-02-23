@@ -294,6 +294,11 @@
     global-agent "^2.0.2"
     global-tunnel-ng "^2.7.1"
 
+"@electron/remote-1-0-2@npm:@electron/remote@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@electron/remote/-/remote-1.0.2.tgz#34e1450db6951d980f91728698f90ccce212a958"
+  integrity sha512-h/hDZoHDS5Rclw8kGWa16P029huVunuOzBtuvFOK49JbFTneK3EUnme4JdoCyjCZH1H3fGM5MyQHuCKkQkE3nw==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -575,6 +580,11 @@
   version "12.19.16"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.19.16.tgz#15753af35cbef636182d8d8ca55b37c8583cecb3"
   integrity sha512-7xHmXm/QJ7cbK2laF+YYD7gb5MggHIIQwqyjin3bpEGiSuvScMQ5JZZXPvRipi1MwckTQbJZROMns/JxdnIL1Q==
+
+"@types/node@^14.6.2":
+  version "14.14.31"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.31.tgz#72286bd33d137aa0d152d47ec7c1762563d34055"
+  integrity sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1328,6 +1338,24 @@ ecc-jsbn@~0.1.1:
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^12.0.12"
+    extract-zip "^1.0.3"
+
+"electron-12-0-0-beta-21@npm:electron@12.0.0-beta.21":
+  version "12.0.0-beta.21"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-12.0.0-beta.21.tgz#61fd71d397f896a21de6858b7870ad1177f25ff5"
+  integrity sha512-3+vcUW5fk9Iplwf8snfK8XqJg0erAAl2lleVUSVVbxoK9y0OIyV3fqVpcZo0C79mfVRmu2PALPvCnumTXvSpgg==
+  dependencies:
+    "@electron/get" "^1.0.1"
+    "@types/node" "^14.6.2"
+    extract-zip "^1.0.3"
+
+"electron-12-0-0-beta-24@npm:electron@12.0.0-beta.24":
+  version "12.0.0-beta.24"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-12.0.0-beta.24.tgz#e7e0664018fe0e8f9dbb275ca26e938e9c063c8a"
+  integrity sha512-TNP9sSEVoYTDJaSK0YqxDYoYRECdfCD1reusdUeJCY+nFbtBDpSSu7FnFZXYu29l0NT0EAxPpNGxP8korDe1pg==
+  dependencies:
+    "@electron/get" "^1.0.1"
+    "@types/node" "^14.6.2"
     extract-zip "^1.0.3"
 
 emittery@^0.7.1:
